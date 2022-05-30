@@ -1,0 +1,7 @@
+# Bookie Page
+
+![](https://lh5.googleusercontent.com/FMBl76JAoeG1EkySNCdvMx5tZHnAQ7GwQY4EvDOFnwfWdZg\_C4My\_-UApZJhsy6T8\_s10uaq0XoM4Jg8ajqPMNEPkMIOvXVsF2bvy4pGYZot9hVuiAT7OvvSAqfZqs9LPdg9RuCBWTFj2ZeT)
+
+The bookie page is responsible for bookies to stake and withdraw their funds, it also displays the liquidity pool information. When the bookie page is loaded, information about the liquidity pool is loaded. This is done by calling the Liquidity contract function _**balancedOf(address \_ownder, uint256 \_id)**_(represented by lines ①, ②, ③), which is inherited from the ERC1155 contract. Then user withdrawable balance is also displayed by calling the Bet contract function _**getLockedLiquidity()**_(represented by lines ④).
+
+There are two types of action a bookie can perform on this page. A bookie can either stake their DAI coins or withdraw their DAI coins from the liquidity pool. By clicking on the Stake DAI button, it calls the Liquidity contract function _**addLiquidity(uint256 \_amount)**_(represented by line ⑤). After the bookie stake their DAI coins, they can choose to withdraw them by clicking on the Withdraw DAI button, it triggers the Liquidity contract function _**removeLiquidity(uint256 \_amount)**_(represented by line ⑥). If the current withdrawable balance is less than the amount in the text field, then the Withdraw DAI button is disabled and the user can not perform the withdrawal function.

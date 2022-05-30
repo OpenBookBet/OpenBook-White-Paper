@@ -1,0 +1,7 @@
+# Market Size
+
+Sports betting as an industry is expected to be worth around $203 billion as of 2020 (Statistia 2021). Most forecasts expect that number to continue to grow by over 50% by 2025 (PR Newswire 2022). In 2018, the Supreme Court of the US struck down a 1992 Federal law that banned commercial sports betting in most states. This has opened the door for a bigger growth (Draper 2018). At the moment, centralized sports books account for the vast majority of this market capitalization.
+
+Web3 solutions to modern problems are popping up more often and the Web3 space as a whole is growing at a rapid pace. Between August 2020 and August 2021, decentralized exchanges grew by nearly 600% (Shen 2021). However, during this same time Augur, the biggest decentralized sportsbook, stayed stagnant. Since 2018, its market capitalization has shrunk by over 90% (CoinMarketCap 2022). To add insult to injury, Augur hasn’t lost the market cap to a decentralized competitor. Augur remains the largest sports betting facilitator on the blockchain to date. The market share of decentralized gambling has fallen down at a time when the market share of gambling as well as that of decentralized protocols has gone through enormous growth. This is oxymoronic. We believe it is their operation mechanism suppressing their growth.
+
+Sitting at the convergence of the sports betting industry and the Web3 phenomenon with an innovative model puts OpenBook in an optimal position to reach a vast audience who stand to benefit from its fresh ideas and features.
