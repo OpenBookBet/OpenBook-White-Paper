@@ -1,7 +1,0 @@
-# Account Page
-
-![](https://lh4.googleusercontent.com/VlBaWZa8NFVaOLJ9Ve\_RUF0\_kVFeEhU0uFxzPFB0gd9f8eIQCSPPUFGvsk-TLUrVESKkbrlQCkrR81Aknzcs6QqqqY\_FqBIVDAcjtHjnBSCnag7RUNJefx9MuCBeNXuPVHDRXdWD1xUQKOjo)
-
-After a user successfully placed a bet, the user can visit the account page to view the bets placed. When the account page is loaded, it calls Bet contract function _**getAllBets()**_** ** (represented by line ①), to retrieve all the ids of the bets the user placed. If the user wants to visit all the settled bets by clicking on the SETTLED BETS tab, then the Bet contract function _**getSettledBets()**_ is called (represented by line ②), which retrieves all the ids of the settled bets. After the bet ids are retrieved, the Bet contract function _**betDetailsByID(uint256 id)**_ is called (represented by line ③) to retrieve the bets details. The details of the game are stored in the JavaScript dictionary format. The content of the table is a loader spinning until all bets are loaded.
-
-There are three types of bets under the UNSETTLED BETS tab. A bet can be a winning bet, losing bet, and a pending bet. There are no actions for losing bets and pending bets. But for winning bets, the user can click on the Claim All Rewards button to trigger the Bet contract function _**withdrawBets(uint256\[] tokenIds, uint256 indexes)**_(represented by line  ④). The function returns an array which contains the bets that are successfully claimed.
